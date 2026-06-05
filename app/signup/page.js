@@ -1,8 +1,8 @@
 export default function Signup() {
   return (
-    <main className="min-h-screen bg-white p-10">
+    <main className="p-10">
       <h1 className="text-3xl font-bold text-green-700 mb-6">
-        Sign Up
+        Sign Up Form
       </h1>
 
       <iframe
