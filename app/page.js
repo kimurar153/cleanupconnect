@@ -1,3 +1,5 @@
+import ContactSection from "@/components/ContactSection";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
@@ -13,7 +15,6 @@ export default function Home() {
           neighborhood cleanups across Central Florida.
         </p>
 
-        {/* BUTTONS */}
         <div className="flex justify-center gap-4">
 
           <a href="/find-cleanup">
@@ -39,39 +40,44 @@ export default function Home() {
         </p>
       </section>
 
-      {/* WORK */}
-      <section className="px-8 py-20 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-10">Our Work</h2>
+      {/* OUR WORK (UPDATED GREEN SECTION) */}
+      <section className="px-8 py-20 bg-green-50">
+        <div className="max-w-6xl mx-auto">
 
-        <div className="grid md:grid-cols-3 gap-6">
+          <h2 className="text-3xl font-bold mb-10 text-center">
+            Our Work
+          </h2>
 
-          <div className="border rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-green-700 mb-3">
-              Road Cleanups
-            </h3>
-            <p className="text-gray-700">
-              Volunteers clean roads and community areas.
-            </p>
+          <div className="grid md:grid-cols-3 gap-6">
+
+            <div className="border rounded-2xl p-6 bg-white shadow-sm">
+              <h3 className="text-xl font-bold text-green-700 mb-3">
+                Road Cleanups
+              </h3>
+              <p className="text-gray-700">
+                Volunteers clean roads and community areas.
+              </p>
+            </div>
+
+            <div className="border rounded-2xl p-6 bg-white shadow-sm">
+              <h3 className="text-xl font-bold text-green-700 mb-3">
+                Park Cleanups
+              </h3>
+              <p className="text-gray-700">
+                Making parks cleaner and safer.
+              </p>
+            </div>
+
+            <div className="border rounded-2xl p-6 bg-white shadow-sm">
+              <h3 className="text-xl font-bold text-green-700 mb-3">
+                Neighborhood Cleanups
+              </h3>
+              <p className="text-gray-700">
+                Community-led cleanup events.
+              </p>
+            </div>
+
           </div>
-
-          <div className="border rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-green-700 mb-3">
-              Park Cleanups
-            </h3>
-            <p className="text-gray-700">
-              Making parks cleaner and safer.
-            </p>
-          </div>
-
-          <div className="border rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-green-700 mb-3">
-              Neighborhood Cleanups
-            </h3>
-            <p className="text-gray-700">
-              Community-led cleanup events.
-            </p>
-          </div>
-
         </div>
       </section>
 
@@ -119,6 +125,9 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* CONTACT */}
+      <ContactSection />
 
     </main>
   );
