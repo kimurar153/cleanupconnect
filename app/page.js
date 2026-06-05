@@ -20,7 +20,7 @@ export default function Home() {
       <section className="px-8 py-20 max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-6">About Us</h2>
         <p className="text-lg leading-8 text-gray-700">
-          CleanupConnect was created by student volunteers from AYLUS Orlando.
+          Cleanup connect is a website for AYLUS, a nonprofit organization run by high school students focused on environmental cleanliness mainly across oviedo and winter park right now but trying to increase initiative for a wider impact.
         </p>
       </section>
 
@@ -39,7 +39,7 @@ export default function Home() {
                 Road Cleanups
               </h3>
               <p className="text-gray-700">
-                Volunteers clean roads and community areas.
+                12 cleanups on SR-419 picking up multiple waste items.
               </p>
             </div>
 
@@ -48,7 +48,7 @@ export default function Home() {
                 Park Cleanups
               </h3>
               <p className="text-gray-700">
-                Making parks cleaner and safer.
+                Hosted 9 cleanups across Jamestown, sweetwater, and round lake parks picking up waste items.
               </p>
             </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
                 Neighborhood Cleanups
               </h3>
               <p className="text-gray-700">
-                Community-led cleanup events.
+                New initiative that we want to initiate to continue to improve overall environmental cleanliness.
               </p>
             </div>
 
